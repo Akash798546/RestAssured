@@ -1,0 +1,64 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.restassured</groupId>
+  <artifactId>RestAssured_Test</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>RestAssured_Test</name>
+  <dependencies>
+    <!-- Rest Assured dependency -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured</artifactId>
+        <version>5.3.0</version> <!-- Use the latest stable version -->
+       
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+<dependency>
+    <groupId>org.seleniumhq.selenium</groupId>
+    <artifactId>selenium-java</artifactId>
+    <version>4.23.0</version>
+</dependency>
+
+    <!-- JSON Path dependency (for parsing JSON responses) -->
+    <dependency>
+        <groupId>com.jayway.jsonpath</groupId>
+        <artifactId>json-path</artifactId>
+        <version>2.7.0</version> <!-- Use the latest stable version -->
+    </dependency>
+
+    <!-- XML Path dependency (for parsing XML responses) -->
+    <dependency>
+        <groupId>io.rest-assured</groupId>
+        <artifactId>rest-assured-common</artifactId>
+        <version>5.3.0</version> <!-- Match with the Rest Assured version -->
+    </dependency>
+
+    <!-- JUnit dependency (if you are using JUnit 4) -->
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.13.2</version> <!-- Or a compatible version -->
+       
+    </dependency>
+    
+   
+
+
+<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
+<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.1</version>
+</dependency>
+
+    <!-- TestNG dependency (if you are using TestNG) -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>7.8.0</version> <!-- Or a compatible version -->
+       
+    </dependency>
+</dependencies>
+
+  
+</project>
