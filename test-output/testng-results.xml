@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-30T18:44:09 IST" name="Default suite" finished-at="2024-07-30T18:44:12 IST" duration-ms="2780">
+  <suite started-at="2024-08-02T17:16:35 IST" name="Default suite" finished-at="2024-08-02T17:16:37 IST" duration-ms="2134">
     <groups>
     </groups>
-    <test started-at="2024-07-30T18:44:09 IST" name="Default test" finished-at="2024-07-30T18:44:12 IST" duration-ms="2780">
-      <class name="BaseTest.PostRegistrationSuccessfull">
-        <test-method signature="postRegistration()[pri:0, instance:BaseTest.PostRegistrationSuccessfull@4d154ccd]" started-at="2024-07-30T18:44:09 IST" name="postRegistration" finished-at="2024-07-30T18:44:12 IST" duration-ms="2744" status="PASS">
+    <test started-at="2024-08-02T17:16:35 IST" name="Default test" finished-at="2024-08-02T17:16:37 IST" duration-ms="2134">
+      <class name="Bookstore.GoogleMap">
+        <test-method signature="postGoogleMap()[pri:0, instance:Bookstore.GoogleMap@4d154ccd]" started-at="2024-08-02T17:16:35 IST" name="postGoogleMap" finished-at="2024-08-02T17:16:37 IST" duration-ms="2096" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postRegistration -->
-      </class> <!-- BaseTest.PostRegistrationSuccessfull -->
+        </test-method> <!-- postGoogleMap -->
+      </class> <!-- Bookstore.GoogleMap -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

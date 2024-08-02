@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BaseTest.PostRegistrationSuccessfull">
+      <class name="Bookstore.GoogleMap">
         <methods>
-          <include name="postRegistration"/>
+          <include name="postGoogleMap"/>
         </methods>
-      </class> <!-- BaseTest.PostRegistrationSuccessfull -->
+      </class> <!-- Bookstore.GoogleMap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

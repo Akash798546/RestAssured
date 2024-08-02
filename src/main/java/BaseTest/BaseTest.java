@@ -9,7 +9,14 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+
 public class BaseTest {
+	
+	static RequestSpecification res;
+	static Response response;
 	
 	static ExtentTest test;
 	static ExtentReports extent;
@@ -31,6 +38,26 @@ public class BaseTest {
 	{
 		extent = BaseTest.getReport();
 		test = extent.createTest(result.getMethod().getMethodName().toUpperCase());
+	}
+	
+	public static void setBookStoreBaseUri()
+	
+	{
+		RestAssured.baseURI="https://bookstore.toolsqa.com/swagger/";
+		res=RestAssured.given();
+	}
+	
+	public static void getStatusCode()
+	{
+		int statuscode= response.getStatusCode();
+		 System.out.println("The Status code is --- "+statuscode);
+	}
+	
+	public static void getResponseBody()
+	{
+		String resbody=response.getBody().asPrettyString();
+		System.out.println("The Response body is ---");
+		System.out.println(resbody);
 	}
 	
 	
